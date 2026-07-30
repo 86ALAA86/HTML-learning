@@ -1,2 +1,19 @@
-# HTML-learning
-HTML Deep Dive — learning semantic structure, forms, tables, and accessibility. Part of web dev track toward Haufe internship 2026.
+# HTML Learning
+
+Started: July 23, 2026  
+Course: HTML Deep Dive — ProgrammingAdvices  
+Goal: Master HTML as foundation for web development track
+
+## Topics Covered
+- Document structure and semantic tags
+- Text, lists, links, images
+- Tables
+- Forms and input types
+- Accessibility basics
+
+## Progress
+- [ ] Document structure and semantic elements
+- [ ] Text tags, lists, links, images
+- [ ] Tables
+- [ ] Forms and input types
+- [ ] Accessibility and ARIA basics
