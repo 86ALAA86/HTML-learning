@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <style>
+         samp {
+             font-family: 'Courier New', monospace; /* Consistent font for code-related text */
+             background-color: #eef; /* Light blue background to highlight output text */
+             padding: 2px 5px; /* Adds padding to make the output more visually distinct */
+             border-radius: 3px; /* Rounded corners for a softer look */
+             color: #555; /* Darker text for better readability */
+             display: block; /* Makes the output appear on a new line, distinguishing it from the command */
+             margin-top: 2px; /* Space above the output for visual separation from the command */
+        }
+
+        code {
+            font-family: 'Courier New', Courier, monospace; /* Ensures the text appears in a monospace font */
+            background-color: #f4f4f4; /* A light gray background to make the code stand out */
+            padding: 2px 4px; /* Adds padding to make the code snippet more readable */
+            border-radius: 4px; /* Softens the corners for a more polished look */
+            border: 1px solid #ccc; /* A subtle border to define the boundaries of the code snippet */
+        }
+     
+        kbd {
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            background-color: #007BFF;
+            padding: 4px 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-shadow: inset 0 -1px 0 rgba(0,0,0,0.3), 0 1px 0 rgba(255,255,255,0.7);
+            display: inline-block;
+            font-size: 0.85em;
+            line-height: 1.4;
+        }     
+    </style>
+
+</head>
+<body>
+    <header>
+        <H1>In this lesson i will use  Specialized Text-Level Semantic Elements : </H1>
+    </header>
+    <main>
+        <section>
+            <h2>  &lt; dfn &gt; - The Definition Element :</h2>
+            <p>The  &lt; dfn &gt; element is primarily used to highlight the first occurrence of a term in a document that is being defined.</p>
+            <p>The term <dfn title="Hypertext Markup Language">HTML</dfn> stands for Hypertext Markup Language, which is the standard language used to create and design web pages.</p>
+
+        </section>
+
+        <section>
+            <h2>  &lt; abbr &gt; - The Abbreviation Element :</h2>
+            <p>The  &lt; abbr &gt;  element in HTML stands for "abbreviation." It is used to indicate an abbreviated form of a longer word or phrase.</p>
+            <p>The <abbr title="World Health Organization">WHO</abbr> plays a key role in global health issues.</p>
+            <p>HTML stands for <abbr title="Hypertext Markup Language">HTML</abbr>, which is the standard language used to create web pages.</p>
+
+        </section>
+
+         <section>
+            <h2>  &lt; samp &gt; - The sample output Element :</h2>
+            <p>The  &lt; samp &gt;  element in HTML stands for "sample output" and is used to represent output from a computer program</p>         
+            <p>When you run the command <code>echo Hello, world!</code>, the output will be:</p>
+            <samp>Hello, world!</samp>
+        </section>
+
+        
+         <section>
+            <h2>  &lt; kbd &gt; - The Keyboard Input Element :</h2>
+            <p>The  &lt; kbd &gt; element in HTML represents keyboard input, but its scope extends to other forms of user input, including voice commands or any other input method.</p>         
+            <p>To refresh the current page in your browser, press <kbd>Ctrl</kbd> + <kbd>R</kbd> or <kbd>F5</kbd>.</p>
+            <p>In macOS, you can open a new terminal window with <kbd>Cmd</kbd> + <kbd>Space</kbd>, type <kbd>Terminal</kbd>, and press <kbd>Enter</kbd>.</p>
+        </section>
+
+        
+
+
+    </main>
+    
+</body>
+</html>
