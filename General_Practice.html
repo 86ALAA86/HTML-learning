@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Web Page With Semantic Elements</title>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        header ,footer , article ,nav , aside  {border :1px solid red ; padding :8px ;margin :10px;}
+        figure {margin :10px}
+        figcaption {font-style: italic;}
+        time {font-weight: bold;}
+        
+   </style>
+</head>
+<body>
+   <header>
+    <h1>My Blog</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+   </header>
+   <main>
+    <article>
+        <header>
+            <h2>The Importance of Semantic HTML</h2>
+        <time datetime="2026-8-4">Published on August 4 , 2026</time>
+        </header>
+        <figure>
+            <img src="Images/project.png" alt="My project" width="100">
+        <figcaption>HTML5 is the latest evolutin of the starndard theat defines HTML</figcaption>
+        </figure>
+        <p>Using <mark style="background-color: blue;">semantic elements</mark> in HTML helps improve accessibility and search engine optimization.
+        Semantic tags provide inforamtion  about the contents of those tags , making it easier  for search engines and 
+    assistive devices to serve users better.</p>
+    <footer>
+        Written by Programming advices platform , for more information : <a href="http://programmingadvices.com" target="_blank" rel="noreferrer external noopener">Click here</a>
+    </footer>
+</article>
+<aside>
+    <h3>Related Posts</h3>
+    <ul>
+        <li><a href="#">Using CSS for Effective Styling</a></li>
+        <li><a href="#">Introduction to JavaScript</a></li>
+    </ul>
+</aside>
+<section>
+    <h3>User Comments :</h3>
+    <details>
+        <summary>View comments (2)</summary>
+        <p>Jane Doe: Great articel!</p>
+        <p>John Smith:Very informative. Thanks!</p>
+    </details>
+</section>
+   </main>
+   <footer>
+    <p>Copyright &copy; 2026 ProgrammingAdvices . All Rights Reserve .</p>
+   </footer>
+
+</body>
+</html>
