@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <header style=" border: 1px solid black ;">
+               <img src="Images/project.png" alt="Practice logo" title="Practice logo" width="40px" height="40px">
+        <section style="margin-right: 30px; ;" align ="right" >
+          <a href=""style="padding: 10px">Home</a> 
+          <a href="" style="padding: 10px">About</a>
+          <a href=""style="padding: 10px">Contact</a> 
+          <a href="" style="padding: 10px">Login</a>
+        </section>
+        <hr>
+        <section align =center >
+            <h1>Welcome to ShowUp2Move</h1>
+            <h2>Find your group sport , show up , move</h2>
+        </section>
+    </header>
+    
+    <main  style="display: flex;">
+        <form action="TargetPage.html" method="post" style="width: 60%;height: auto;">
+         <section style=" border: 1px solid black ; ">
+            <h2 align = center style="margin-left: 13px;">Create An Account</h2>
+
+            <fieldset style=" border: 1px solid black ;">
+                <legend>Personal Information </legend>
+                
+                <p><label for="fullname"><b>Full Name :</b></label></p>
+                <input type="text" name="fullname" id="fullname"
+                 required placeholder="Your Full Name." style="width: 90%; margin-left: 15px;" >
+
+               <p> <label for="email"><b>Emai Address :</b></label></p>
+                <input type="email" name="email" id="email"
+                 required placeholder="Your Valid Email." style="width: 90%; margin-left: 15px;" >
+
+                 <div style="display: flex;">
+                    <section style="width: 50% ;height: auto;">
+                <p> <label for="password"><b>Password :</b></label></p>
+                <input type="password" name="password" id="password"
+                 required placeholder="Enter a password."minlength=8 title="Enter at least 8 digets" style="width: 70%; margin-left: 15px;" >
+                    </section>
+
+                    <section style="width: 50% ;height: auto;">
+                <p> <label for="cpassword"><b>Confirm Password :</b></label></p>
+                <input type="password" name="cpassword" id="cpassword"
+                 required placeholder="Repeat your password." minlength=8 title="Enter at least 8 digets"  style="width: 70%; margin-left: 15px;" >
+                    </section>
+                
+                 </div>
+
+                  <div style="display: flex;">
+                    <section style="width: 50% ;height: auto;">
+                <p> <label for="dob"><b>Date of Birth:</b></label></p>
+                <input type="date" name="dob" id="dob"
+                 required  style="width: 70%; margin-left: 15px;" >
+                    </section>
+
+                    <section style="width: 50% ;height: auto;">
+                <p> <label for="phone"><b>Phone number :</b></label></p>
+                <input type="text" name="phone" id="phone"
+                 required placeholder="Enter your phone number." pattern="[0-9]{10}" title="Enter 10 digets without any spaces or slashes" style="width: 70%; margin-left: 15px;" >
+                    </section>
+                
+                 </div>
+                    
+            </fieldset>
+
+            <fieldset>
+                <legend>Profile Details :</legend>
+                 <p><label for="profilepicture"><b>Profile Picture: </b> (optional)</label></p>
+                <input type="file" name="profilepicture" id="profilepicture"
+                  style="width: 100%; margin-left: 15px;" >
+
+                   <p> <label for="bio"><b>Short Bio :</b></label></p>
+               <textarea name="bio" id="bio" style="width: 90%; margin-left: 15px;" ></textarea>
+                 
+            </fieldset>
+
+            <fieldset>
+                <legend>Sport Preferences :</legend>
+                <p><b>Favorite Sport :</b> (select all that apply)</p>
+
+                 <label for="football"><b>Football:</b> </label>
+                 <input type="checkbox" id="football" name="football" style="margin-right : 30px" >
+
+                 <label for="basketball"><b>Basketball:</b> </label>
+                 <input type="checkbox" id="basketball" name="basketball" style="margin-right : 30px" >
+
+                 <label for="tennis"><b>Tennis:</b> </label>
+                 <input type="checkbox" id="tennis" name="tennis" style="margin-right : 30px">
+
+                 <label for="volleyball"><b>Volleyball:</b> </label>
+                 <input type="checkbox" id="volleyball" name="volleyball" style="margin-right : 30px">
+
+                  <label for="running"><b>running:</b> </label>
+                 <input type="checkbox" id="running" name="running" style="margin-right : 30px">
+
+                 <br>
+
+                 <label for="swimming"><b>Swimming:</b> </label>
+                 <input type="checkbox" id="swimming" name="swimming" style="margin-right : 30px" >
+
+                 <label for="cycling"><b>Cycling:</b> </label>
+                 <input type="checkbox" id="cycling" name="cycling" style="margin-right : 30px" >
+
+                 <label for="yoga"><b>Yoga:</b> </label>
+                 <input type="checkbox" id="yoga" name="yoga" style="margin-right : 30px">
+
+                 <label for="hiking"><b>Hiking:</b> </label>
+                 <input type="checkbox" id="hiking" name="hiking" style="margin-right : 30px">
+
+                  <label for="other"><b>Other:</b> </label>
+                 <input type="checkbox" id="other" name="other" style="margin-right : 30px">
+
+                 <p>Skill Level :</p>
+
+                 <label for="beginner">Beginner</label>
+                 <input type="radio" id="beginner" name="skilllevel" value ="beginner">
+       
+                 <label for="intermediat">Intermediat</label>
+                 <input type="radio" id="intermediat" name="skilllevel" value ="intermediat">
+
+                  <label for="advanced">Advanced</label>
+                 <input type="radio" id="advanced" name="skilllevel" value ="advanced">
+
+                 <p>Preferd Days :</p>
+                 <select name="prefereddays" id="prefereddays" title="Pick days"  style="width: 90%; margin-left: 15px;">
+                    <option value="sun">Sunday</option>
+                    <option value="mon">Monday</option>
+                    <option value="tus">Tuesday</option>
+                    <option value="wed">Wednesday</option>
+                    <option value="thr">Thursday</option>
+                    <option value="fri">Friday</option>
+                    <option value="sat">Saturday</option>             
+                 </select>
+                
+            </fieldset>
+            
+             <fieldset>
+                 <legend>Location :</legend>
+                
+                 <div style="display: flex;">
+                    <section style="width: 50% ;height: auto;">
+                 <p> <label for="city"><b>City :</b></label></p>
+                 <input type="city" name="city" id="city"
+                 required placeholder="city"  style="width: 90%; margin-left: 15px;" >
+                    </section>
+
+                    <section style="width: 50% ;height: auto;">          
+                        <p>Countries :</p>
+                    <select name="country" id="country" title="Select country"  style="width: 90%; margin-left: 15px;">
+                    <option value="sy">Syria</option>
+                    <option value="ro">Romania</option>
+                    <option value="us">United States</option>         
+                    </select>
+                  </section>
+                
+                 </div>
+
+                  <label for="nerbaymatching"><b>Share my location for nerbay matching :</b> </label>
+                 <input type="checkbox" id="nerbaymatching" name="nerbaymatching" style="margin-left : 30px ;" >
+         
+            </fieldset>
+
+            <input type="checkbox" id="termsconditions" name="termsconditions" style="margin-left : 30px ;" >
+            <label for="termsconditions"><b>I agrre to <a href="">Terms & Conditions </a>and <a href="">Privacy policy</a> </b> </label>
+
+          <p align =center> <button type="submit" style="font-size: medium;  width: 80%;height: 30px;"><b>Create account</b></button></p>
+          <p align =center >Already have an account ?</p>
+          <p align =center ><a href="">login</a></p>
+
+             </section>
+
+            
+        </form>
+
+         <div style="display: block ; width: 40% ;height: auto;" >
+                 <section style=" border: 1px solid black ; width: 100%;height: auto;" >
+     
+                    <form action="TargetPage.html" method="post">   
+                        <h2 align =center>Login</h2>
+                      <div>
+
+                     <p style="margin-left: 15px;"> <label for="email-login"><b>Emai Address :</b></label></p>
+                 <input type="email" name="email-login" id="email-login"
+                 required placeholder="Your Valid Email." style="width: 90%; height: 20px; margin-left: 15px;" >
+   
+                    <p  style="margin-left: 15px;"> <label for="password-login" ><b>Password :</b></label></p>
+                 <input type="password-login" name="password-login" id="password-login"
+                 required placeholder="Enter a password."minlength=8 title="Enter at least 8 digets"
+                  style="width: 90%; height: 20px; margin-left: 15px;" >
+                 
+                  <p>
+                    <input type="checkbox" id="remeberme" name="Remember Me :" style="margin-left : 30px ;" >
+                    <label for="remeberme"><b>Remember Me </b> </label>
+                     <a href="" style="margin-left: 210px;">forget password ?</a>
+                  </p>
+                 <p align =center> <button type="submit" style="font-size: medium;  width: 80%;height: 30px;"><b>Login</b></button></p>
+                  <hr style="width: 90%;">
+                  <p align=center>- or countinue with -</p>
+
+                   <div style="display: flex;">
+                    <section style="width: 50% ;height: auto;">
+                 <p align =center> <button type="submit" style="font-size: medium;  width: 80%;height: 30px;"><b>Google</b></button></p>
+
+                  </section>
+
+                    <section style="width: 50% ;height: auto;">
+                 <p align =center> <button type="submit" style="font-size: medium;  width: 80%;height: 30px;"><b>GitHub</b></button></p>
+
+                    </section>
+                
+                 </div>
+
+                  <p align=center>Don't Have an account ?</p>
+                  <p align=center><a href="">Register here </a></p>
+      
+
+                     </div>   
+                    </form>        
+                  </section>
+
+                    <section section style=" border: 1px solid black ; width: 100%;height: auto;" >
+                       <h2 align =center>Why to join ShowUp2Move ?</h2>
+
+                       <ul style="margin-left: 20px; font-size: large;">
+                        <li> Find sports partners near you</li>
+                        <li> Get matched by skill level</li>
+                        <li> Coordinate events easily</li>
+                        <li> Join group chats instantly</li>
+                        <li>Free to use — always</li>
+                        <li> Available in 10+ cities in Romania</li>
+                        <li> 500+ active members</li>
+
+                       </ul>
+
+
+       </section>
+
+                  
+                
+             </div>
+    </main>
+
+    <footer style=" border: 1px solid black ;">
+        <p align =center >ShowUp2Move &copy; 2026 | <a href="" style="margin-left:10px ;">privacy&policy</a><a href="" style="margin-left:10px ;">Terms of service</a><a href="" style="margin-left:10px ;">Contact us</a></p>
+    <p style="font-size: small;" align =center>Built with HTML — no CSS, no JavaScript</p>
+    </footer>
+    
+</body>
+</html>
